@@ -3,13 +3,56 @@
   margin: 0;
   padding: 0;
 }
+
+.bg-lightblue{
+  background-color: lightblue;
+
+}
+
 .container {
   width: 50%;
   padding: 15px;
   margin: auto;
-  background-color: lightblue;
 }
 
 .container > h3 {
   text-align: center;
 }
+
+.content-container {
+  margin: 5px 5px;
+}
+
+.content-container > p {
+  text-align: center;
+}
+
+.content-container > p:nth-child(1) {
+  border: solid red 1px;
+}
+
+.content-container > p:nth-child(2) {
+  border: solid green 1px;
+}
+
+/** Spacing */
+
+.pt-1{
+  padding-top: 5px;
+}
+
+.pb-1{
+  padding-bottom: 5px;
+}
+
+.mt-1{
+  margin-top: 5px;
+}
+
+.mb-1{
+  margin-bottom: 5px;
+}
+
+
+
+
