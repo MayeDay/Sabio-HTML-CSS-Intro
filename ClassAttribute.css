@@ -1,0 +1,16 @@
+.item {
+  position: relative;
+  display: block;
+  padding: 1rem;
+  background-color: aliceblue;
+  border: 1px solid black;
+
+}
+
+.warning-text {
+  color: rgb(190, 0, 0);
+}
+
+.success-text {
+  color: rgb(0, 180, 0);
+}
