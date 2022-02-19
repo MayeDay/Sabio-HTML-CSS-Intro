@@ -25,14 +25,8 @@
 
 .content-container > p {
   text-align: center;
-}
-
-.content-container > p:nth-child(1) {
-  border: solid red 1px;
-}
-
-.content-container > p:nth-child(2) {
   border: solid green 1px;
+
 }
 
 /** Spacing */
@@ -43,6 +37,10 @@
 
 .pb-1{
   padding-bottom: 5px;
+}
+
+#p-id {
+  font-size: 2em;
 }
 
 .mt-1{
