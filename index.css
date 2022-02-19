@@ -1,0 +1,22 @@
+h2 {
+   color: rgb(214, 23, 23);
+}
+
+#main-p{
+  font-size: 1.2rem;
+  background-color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.p-class {
+  color: violet;
+}
+
+.p-font {
+  font-size: .8rem;
+}
+
+img[src]{
+  width: 20px;
+  height: 20px;
+}
