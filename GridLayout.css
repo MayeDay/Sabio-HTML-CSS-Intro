@@ -23,3 +23,8 @@ margin: auto;
   grid-row-start: 2;
   grid-row-end: 6;
 }
+
+.emote-image {
+  width: 150px;
+  height: 150px;
+}
