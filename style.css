@@ -1,6 +1,9 @@
 .container {
 
-  background-color: aliceblue;
+}
+
+.card-body >p {
+  padding: 10px;
 }
 
 .grid-container {
@@ -34,4 +37,14 @@ a > img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
+}
+
+.grid-item > .card-body{
+  background-color: aliceblue;
+  border-top: solid black .1rem;
+}
+
+.card-body> p {
+  margin: 0;
 }
