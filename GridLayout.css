@@ -1,0 +1,30 @@
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: aliceblue;
+border: solid .1rem red;
+gap: .5rem;
+padding: .5rem;
+width: 70%;
+margin: auto;
+}
+
+.grid-container >.grid-item{
+  text-align: center;
+  border: dotted .05rem black;
+}
+
+/* .grid-container >.grid-item:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-container >.grid-item:nth-child(2){
+  grid-row-start: 2;
+  grid-row-end: 6;
+} */
+
+.emote-image {
+  width: 150px;
+  height: 150px;
+}
