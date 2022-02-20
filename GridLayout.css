@@ -1,0 +1,35 @@
+
+.grid-container {
+ 
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  border: solid black 2px;
+  padding: 1em;
+
+  
+}
+
+.grid-container >.grid-item {
+  border: solid 1px black;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+/* .grid-container > div:nth-child(1) {
+  box-sizing: border-box;
+  margin: 5px;
+  width: 30%;
+  padding: 10px;
+  background-color: aqua;
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: nine;
+  grid-row-start: row1-start;
+  grid-row-end: 3;  border: dashed red 1px;
+  display: inline-block;
+} */
