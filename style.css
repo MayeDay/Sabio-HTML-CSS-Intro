@@ -18,6 +18,13 @@
 
 }
 
+.grid-container >.grid-item:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+  height: 150px;
+}
+
 a {
   width: 100%;
 }
