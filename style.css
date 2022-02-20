@@ -4,12 +4,27 @@
 }
 
 .grid-container {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  border: dashed blue .1rem;
+  gap: .5em;
+  padding: .5em;
 }
 
 .grid-container > .grid-item {
-  
+  border: solid red .1rem;
 
+}
+
+a {
+  width: 100%;
+}
+
+a > img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
